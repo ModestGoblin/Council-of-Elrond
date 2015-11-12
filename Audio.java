@@ -1,11 +1,11 @@
 public class Audio extends Item {
 	protected String artistName;
 	public String getInfo(){ //Returns sNo, Name, Artist name, etc in a string
-
+		return sNo + "\t" + name + "\t" + creator + "\t" + price + "\t" + quantity;
 	}
 	@Override
 	public int getPrice(){ //override
-
+		return price;
 	}
 	public int getListInfo(){ //Based on the value of Type(CD or MP3) print the list of Items
 
