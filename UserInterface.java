@@ -88,7 +88,7 @@ public class UserInterface{
 				
 			}
 		}
-		else if(toPage == 3){
+		else if(toPage == 3){//getting an error here
 			System.out.println("Welcome " + loggedin.getUsername());
 			return(5);
 		}
