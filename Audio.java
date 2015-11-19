@@ -1,13 +1,25 @@
-public class Audio extends Item { /*the objects of Audio class will now receive all fields & methods of Items(it's parent class) */
-	protected String artistName;
+import java.util.*;
+import java.text.*;
+public class Audio extends Item {
+    public Audio(String s) {
+        super(s);
+    }
+    public String getShoppingInfo() {
+        Date date = Calendar.getInstance().getTime();
+        SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
+        return name+","+sdf.format(date)+","+quantity;
+    }
 	public String getInfo(){ //Returns sNo, Name, Artist name, etc in a string
-		return sNo + "\t" + name + "\t" + creator + "\t" + price + "\t" + quantity;
+        return name + "\t" + creator + "\t" + price + "\t" + quantity;
 	}
-	@Override /*Child class's getPrice & getListInfo replace the behavior of thier parent's methods by redefining them */
+    public String getListInfo() {
+        return getInfo();
+    }
+    public String toFile() {
+        return "A"+sNo+","+name+","+creator+","+price+","+quantity;
+    }
+	@Override
 	public int getPrice(){ //override
-		return price;
-	}
-	public int getListInfo(){ //Based on the value of Type(CD or MP3) print the list of Items
-
+        return price;
 	}
 }
