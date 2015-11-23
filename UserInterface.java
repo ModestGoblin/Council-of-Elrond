@@ -218,7 +218,7 @@ public class UserInterface{//The User Interface Class, for all page naviagtion
             String response = option.next();//take user input
             if (response.toLowerCase().equals("yes")) {//user confirmed
                 System.out.println("Confirmation ID: U" + confirmnum);//display confirmation number
-                confirmnum += 1//add 1 to make sure confirmation
+                confirmnum += 1;//add 1 to make sure confirmation
                 System.out.println("Items shipped to: Mr." + current.getUsername());//notifies user that Item order ahs been confirmed
             }//end user confirmation
             currentPage = 5;//return to main menu
