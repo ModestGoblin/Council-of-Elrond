@@ -1,3 +1,9 @@
+/*
+* Name: Thomas Sikma Graham Van Deventer Nezar Dimitri
+* MacID: sikmat vandevgm dimitn
+* Student Number: 1428584 1404877 1422586
+* Description: The shopping Cart Class keeps track of all items all users are currently going to purchase, this class reads and writes to individual text files for each user, and overwrites Methods from the User class
+*/
 import java.util.*;//import all general utility functions
 import java.io.*;//import functions needed for file reading, writing and user input
 
