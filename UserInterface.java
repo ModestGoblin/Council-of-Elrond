@@ -1,3 +1,9 @@
+/*
+* Name: Thomas Sikma Graham Van Deventer Nezar Dimitri
+* MacID: sikmat vandevgm dimitn
+* Student Number: 1428584 1404877 1422586
+* Description: This Class will be used predominantly in the main class. It is the master class for page navigation, display and control. It will call Functions from all ofther classes except main when files must be written to, or variables need to be accessed
+*/
 import java.util.*;//import general utility functions
 import java.io.*;//import functions for input and output
 
