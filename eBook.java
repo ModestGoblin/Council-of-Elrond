@@ -15,4 +15,4 @@ public class eBook extends Readable {//class that has all info on
 	public String getListInfo(){ //Based on the value of Type(Book or eBook) print the list of Items
         return super.getListInfo() + "\teBook";//return parent call of getList info + the word eBook
 	}//end getListInfo
-}..end class
+}//end class
