@@ -1,3 +1,10 @@
+/*
+* Name: Thomas Sikma Graham Van Deventer Nezar Dimitri
+* MacID: sikmat vandevgm dimitn
+* Student Number: 1428584 1404877 1422586
+* Description: The class for all Audio items. All details regarding them will be handled and manipulated here
+*/
+
 import java.util.*;//import general utility methods required for program
 import java.text.*;//import text formatting methods/functions
 public class Audio extends Item {//class that contains all information regarding 
