@@ -1,7 +1,4 @@
 /*
-* Name: Thomas Sikma Graham Van Deventer Nezar Dimitri
-* MacID: sikmat vandevgm dimitn
-* Student Number: 1428584 1404877 1422586
 * Description: All Readable items, both Books and eBooks, share certain characteristics and functions. This will begin to override functoons from the item class.
 */
 import java.util.*;//import utility functions
