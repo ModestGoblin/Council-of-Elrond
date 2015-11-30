@@ -1,4 +1,9 @@
-
+/*
+* Name: Thomas Sikma Graham Van Deventer Nezar Dimitri
+* MacID: sikmat vandevgm dimitn
+* Student Number: 1428584 1404877 1422586
+* Description: All Items, regardless of type (Book, eBook, CD, MP3) all share these functions and characteristics Functions will be overriden when items are more specialized
+*/
 public abstract class Item {//class for all individual items in store inventory
     public Item(String s) {//constructor
         String data[] = s.split(",");//create string array based on splits at commas

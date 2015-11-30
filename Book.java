@@ -1,4 +1,9 @@
-
+/*
+* Name: Thomas Sikma Graham Van Deventer Nezar Dimitri
+* MacID: sikmat vandevgm dimitn
+* Student Number: 1428584 1404877 1422586
+* Description: Class for all Book items. All book items have their details dealt with and manipulated using the code below
+*/
 public class Book extends Readable {//class that contains information on Book items
     public Book(String s) {//constructor
         super(s);//call parent

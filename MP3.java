@@ -1,4 +1,9 @@
-
+/*
+* Name: Thomas Sikma Graham Van Deventer Nezar Dimitri
+* MacID: sikmat vandevgm dimitn
+* Student Number: 1428584 1404877 1422586
+* Description: All MP3 items for the store will share these characteristics and functions, that can be and will be called from other classes that demand use of them.
+*/
 public class MP3 extends Audio {//class that contains all info and functions on MP3 items
     public MP3(String s) {//constructor
         super(s);//call parent constructor

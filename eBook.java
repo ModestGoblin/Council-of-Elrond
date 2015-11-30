@@ -1,4 +1,9 @@
-
+/*
+* Name: Thomas Sikma Graham Van Deventer Nezar Dimitri
+* MacID: sikmat vandevgm dimitn
+* Student Number: 1428584 1404877 1422586
+* Description: The eBook class is responsible for keeping track of all detail relevant to eBook Items, as well as overrwriting various functions from parent classes in order to make them more usable and relevant. 
+*/
 public class eBook extends Readable {//class that has all info on 
     public eBook(String s) {//constructor
         super(s);//call parent constructor
