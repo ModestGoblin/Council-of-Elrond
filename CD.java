@@ -1,9 +1,4 @@
-/*
-* Name: Thomas Sikma Graham Van Deventer Nezar Dimitri
-* MacID: sikmat vandevgm dimitn
-* Student Number: 1428584 1404877 1422586
-* Description: All CD items have their details assembled and manipulated using the constructor and functions included in this class
-*/
+
 public class CD extends Audio {//class containing info for CD items
     public CD(String s) {//constructor
         super(s);//call parent constructor

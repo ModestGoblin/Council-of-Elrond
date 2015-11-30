@@ -4,9 +4,4 @@
 
 [hw4.pdf](http://www.cas.mcmaster.ca/~borzoo/teaching/15/2S03/hw/hw4.pdf)
 
-###### Full Name : MACID : Student Number
-**Thomas Sikma** : sikmat : 1428584
 
-**Graham VanDeventer** : vandevgm : 001404877
-
-**Nezar Dimitri** : dimitn : 1422586
